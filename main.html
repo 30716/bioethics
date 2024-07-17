@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIOETHICS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+    @font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+</style>
+</head>
+<body>
+  <div id="container">
+
+    <header>
+      <div id="logo">
+        <a href="main.html"><img src="images/logo.png" alt="로고"
+          >
+        </a>
+      </div>
+    </header>
+
+    <div id="tabmenu">
+
+    </div>
+
+    <div id="poster">
+      <img class="slides active" src="images/1.jpg" alt="Slide 1">
+      <img class="slides" src="images/2.jpg" alt="Slide 2">
+      <img class="slides" src="images/3.jpg" alt="Slide 3">
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      <div class="dots">
+        <span class="dot active-dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <div class="related-articles">
+        <h4><생명윤리 관련 기사></h4>
+        <ul>
+          <li><a href="https://www.hani.co.kr/arti/science/science_general/1125090.html" target="_blank">인간과 93% 일치 붉은털원숭이 복제 첫 성공…생명 윤리 딜레마 커져</a></li>
+          <li><a href="https://www.medicaltimes.com/Main/News/NewsView.html?ID=1159725" target="_blank">임신 36주 낙태 브이로그에 의료계 경악 "무분별 태아 살인"</a></li>
+          <li><a href="https://www.ibric.org/bric/trend/bio-news.do?mode=view&articleNo=9888945#!/list" target="_blank">일론 머스크의 뉴럴링크, 연구 진전에도 큰 비판을 받고 있는 이유는?</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="link">
+      <div class="circle red">
+        <a href="quiz.html">
+          <span>퀴즈</span>
+        </a>
+      </div>
+      <div class="circle yellow">
+        <a href="discuss.html">
+          <span>토론장</span>
+        </a>
+      </div>
+      <div class="circle blue">
+        <a href="info.html">
+          <span>사례</span>
+        </a>
+      </div>
+    </div>
+    
+    <div id="website">
+      <a href="https://www.nibp.kr/xe/" target="_blank">
+        <img src="images/one.png" alt="Link 1">
+      </a>
+      <a href="https://koreabioethics.jams.or.kr/co/main/jmMain.kci" target="_blank">
+        <img src="images/two.jpg" alt="Link 2">
+      </a>
+      <a href="https://irb.or.kr/MAIN.aspx" target="_blank">
+        <img src="images/three.jpg" alt="Link 3">
+      </a>
+    </div>
+    
+  <script src="js/script.js"></script>
+</body>

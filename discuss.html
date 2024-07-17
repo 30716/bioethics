@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIOETHICS</title>
+  <link rel="stylesheet" href="css/discuss.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+    @font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+</style>
+</head>
+<body>
+  <div id="container">
+
+    <header>
+      <div id="logo">
+        <a href="main.html"><img src="images/logo.png" alt="로고"
+          >
+        </a>
+      </div>
+    </header>
+
+    <div id="tabmenu">
+
+    </div>
+
+    <div id="discuss">
+      <form id="comment-form">
+        <label for="nickname">닉네임:</label>
+        <input type="text" id="nickname" name="nickname" required>
+        <label for="comment">댓글:</label>
+        <input type="text" id="comment" name="comment" required>
+        <button type="submit">댓글 남기기</button>
+    </form>
+
+    <div id="comments"></div> <!-- 댓글이 나타날 위치 -->
+      
+    </div>
+
+    
+  <script src="js/discuss.js"></script>
+</body>

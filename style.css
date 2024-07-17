@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+}
+ 
+#logo {
+  width: 550px;
+  height: 100%;
+  margin-bottom: 0;
+  margin: auto;
+}
+
+#logo a > img{
+width: 500px;
+height: 150px;
+margin: 0 auto;
+ }
+
+#tabmenu{
+  width: 100%;
+  height: 20px;
+  background-color:  #61777f;
+}
+#poster {
+  position: relative;
+  width: 80%;
+  max-width: 50%;
+  left: 30px;
+  float: left;
+}
+
+#poster > img {
+  width: 700px;
+  height: 550px;
+  margin-left: 50px;
+}
+
+.slides {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+  color: #61777f;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.dots {
+  text-align: center;
+  margin-top: 0; /* 이미지와 dot 사이 간격을 없앰 */
+  position: relative;
+  top: -20px; /* 이미지와 dots 사이의 간격을 줄이기 위해 추가 */
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active-dot {
+  background-color: #717171;
+}
+
+.related-articles {
+  margin-top: 0px;
+  margin-bottom: 20px; /* 아래쪽 여백 추가 */
+  text-align: left;
+  font-family: 'Dovemayo_gothic';
+  background-color: #9eaeb4;
+}
+
+
+.related-articles h4 {
+  font-size: 30px;
+  text-align: center;
+  color: #61777f;
+}
+
+.related-articles ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.related-articles ul li {
+  margin: 5px 0;
+}
+
+.related-articles ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.related-articles ul li a:hover {
+  text-decoration: underline;
+}
+#link {
+  position: relative;
+  width: 80%;
+  max-width: 45%;
+  margin-top: 10px;
+  margin-left: 20px;
+  right: 0;
+  float: right;
+  text-align: center; /* 가운데 정렬 */
+}
+
+#link .circle {
+  display: block; /* 수직 정렬을 위해 block으로 변경 */
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  border-radius: 50%;
+  margin: 10px auto; /* 수직 중앙 정렬을 위해 auto 사용 */
+  position: relative;
+}
+
+#link .circle.red {
+  color: #ff4d4d; /* 빨간색 동그라미 */
+  background-color: #ff4d4d; /* 빨간색 동그라미 */
+}
+
+#link .circle.yellow, #link .circle.blue {
+  display: inline-block; /* 가로 배치 */
+  margin: 0 10px; /* 좌우 간격 조정 */
+}
+
+#link .circle.yellow {
+  border-color: #f4cf3c; /* 노란색 동그라미 */
+  background-color: #f4cf3c; /* 노란색 동그라미 */
+}
+
+#link .circle.blue {
+  border-color: #568eb4; /* 파란색 동그라미 */
+  background-color: #568eb4; /* 파란색 동그라미 */
+}
+
+#link .circle span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Dovemayo_gothic';
+}
+
+#link .circle a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#link .circle a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: 'Dovemayo_gothic';
+}
+
+#website {
+  text-align: right; /* Center-align the images */
+  position: relative;
+  width: 80%;
+  max-width: 50%;
+  margin-top: 30px;
+  right: 0;
+  float: right;
+}
+
+#website a {
+  display: inline-block; /* Display images inline */
+  margin: 0 10px; /* Adjust horizontal spacing */
+  text-decoration: none; /* Remove underline from links */
+}
+
+#website img {
+  height: 70px; /* Fixed height */
+  width: auto; /* Allow width to adjust proportionally */
+}
