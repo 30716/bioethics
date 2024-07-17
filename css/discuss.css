@@ -1,0 +1,154 @@
+
+h1 {
+  margin: 0;
+  font-family: 'Dovemayo_gothic';
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'Dovemayo_gothic';
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  font-family: 'Dovemayo_gothic';
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Dovemayo_gothic';
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Dovemayo_gothic';
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Dovemayo_gothic';
+  font-size: 22px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Dovemayo_gothic';
+  font-size: 22px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4287e1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Dovemayo_gothic';
+  font-size: 20px;
+  
+}
+
+button[type="submit"]:hover {
+  background-color: #4287e1;
+}
+
+nav {
+  float: right;
+  margin-top: 20px;
+  font-family: 'Dovemayo_gothic';
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dovemayo_gothic';
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+  font-family: 'Dovemayo_gothic';
+}
+
+.comment {
+background-color: #f9f9f9;
+padding: 15px;
+margin-bottom: 12px;
+border-radius: 8px;
+position: relative;
+font-family: 'Dovemayo_gothic';
+font-size: 32px;
+}
+
+.comment .time {
+position: absolute;
+top: 5px;
+right: 110px; /* 수정 버튼 바로 왼쪽에 위치 */
+color: #888;
+font-size: 12px;
+font-family: 'Dovemayo_gothic';
+}
+
+
+.comment .actions {
+position: absolute;
+top: 5px;
+right: 10px;
+font-family: 'Dovemayo_gothic';
+}
+
+/* 아이디 스타일 */
+.comment .nickname {
+  background-color: transparent; /* 핑크 배경색 */
+  color: #61777f; /* 흰색 글자 */
+  border-radius: 5px;
+  font-size: 20px; /* 폰트 사이즈 크게 */
+  margin-bottom: 5px;
+  display: inline-block;
+  font-family: 'Dovemayo_gothic';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+}
+ 
+#logo {
+  width: 550px;
+  height: 100%;
+  margin-bottom: 0;
+  margin: auto;
+}
+
+#logo a > img{
+width: 500px;
+height: 150px;
+margin: 0 auto;
+ }
+
+#tabmenu{
+  width: 100%;
+  height: 20px;
+  background-color:  #61777f;
+}
